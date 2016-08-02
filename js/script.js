@@ -1,6 +1,5 @@
 // event listener to respond to "Show another quote" button clicks
 // when user clicks anywhere on the button, the "printQuote" function is called
-document.getElementById('loadQuote').addEventListener("click", printQuote, false);
 
 var quotes = [{	quote: "We produce more failed pilots than the French air force.",
 				source: "Jack Donague", 
@@ -25,15 +24,19 @@ var getRandomQuote = function(){
 
 var printQuote = function(){
 	var thisQuote = getRandomQuote();
+	console.log(thisQuote)
 	var myString = '<p class="quote">'+thisQuote.quote+'</p><p class="source">'+thisQuote.source+'</p>'
       if(thisQuote.citation.length>0){
-      	myString +='<span class="citation">'+citation+'</span>';
+      	myString +='<span class="citation">'+thisQuote.citation+'</span>';
       }
       if(thisQuote.year.length>0){
-      	myString +='<span class="year">'+year+'</span>';
+      	myString +='<span class="year">'+thisQuote.year+'</span>';
       }
-    document.getElementById('quote-box').innerHTML("hi")
+
+    document.getElementById('quote-box').innerHTML = myString;
 }
+
+document.getElementById('loadQuote').addEventListener("click", printQuote, false);
 
 
 
