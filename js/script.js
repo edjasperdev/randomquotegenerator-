@@ -1,19 +1,56 @@
 // event listener to respond to "Show another quote" button clicks
 // when user clicks anywhere on the button, the "printQuote" function is called
 
-var quotes = [{	quote: "We produce more failed pilots than the French air force.",
-				source: "Jack Donague", 
-				citation: "30 Rock", 
-				year: "2013"
-			},{	quote: "Listen up, Fives. A Ten is speaking.",
-				source: "Janna Maroney", 
-				citation: "30 Rock", 
-				year: "2010"
-			},{
-				quote: "Lemon, I would like to teach you something. I would like to be Michelle Pfeiffer to your angry black kid who learns that poetry is just another way to rap.",
-				source: "Jack Donague", 
-				citation: "", 
-				year: ""
+var quotes = [{	quote: "Those shoes are definitely bi-curious.",
+				source: "Jack Donaghy", 
+				citation: "Season 1", 
+				year: "2013",
+				tags: ["humor","avaiation"]
+			},{	quote: "You know there are 17 million rats per person in Manhattan. You eat a pound of rat crap every year without even knowing it, huh?",
+				source: "Dennis", 
+				citation: "Season 1", 
+				year: "2010",
+				tags: ["glamour","humor"]
+			},{ quote: "I don't have any money if that's what you're after. And I'm not one of those girls that does weird stuff in bed because they think they have to. If you're a gay guy looking for a beard, I don't do that anymore. And if you're trying to harvest my organs and sell them, I have an uncle who's a cop so don't even try it.",
+				source: "Liz Lemon", 
+				citation: "Season 1", 
+				year: "",
+				tags: ["education","poetry"]
+			},{ quote: "From now on you write and shoot the whole season in two weeks, like Wheel of Fortune or Fox News.",
+				source: "Jack Donaghy", 
+				citation: "Season 6", 
+				year: "",
+				tags: [""]
+			},{ quote: "I got rid of all my Colin Firth movies in case they consider it erotica.",
+				source: "Liz Lemon", 
+				citation: "Season 3", 
+				year: "",
+				tags: [""]
+			},{ quote: "You look like that flashcard they told me means sadness.",
+				source: "Jenna", 
+				citation: "Season 7", 
+				year: "",
+				tags: [""]
+			},{ quote: "Why are my arms so weak? It's like I did that pushup last year for nothing!",
+				source: "Jenna", 
+				citation: "Season 7", 
+				year: "",
+				tags: [""]
+			},{ quote: "I assumed it was the bottle of wine with the card reading 'Dear Doritos, what about just selling bags full of your dust? I could put it on chicken or fish...'",
+				source: "Jack Donaghy", 
+				citation: "Season 7", 
+				year: "",
+				tags: [""]
+			},{ quote: "My heart's pounding like I'm watching Oprah's farewell season.",
+				source: "Liz Lemon", 
+				citation: "Season 5", 
+				year: "",
+				tags: [""]
+			},{ quote: "I can talk to animals. Well not talk to 'em. I can take commands from them.",
+				source: "Liz Lemon", 
+				citation: "Season 5", 
+				year: "",
+				tags: [""]
 			}]
 
 
